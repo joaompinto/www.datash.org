@@ -34,5 +34,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            pypiplus/website:latest
             ghcr.io/pypiplus/website:latest
