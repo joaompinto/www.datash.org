@@ -1,0 +1,5 @@
+navigation_items:
+  - link: /
+    name: Home
+  - link: /About
+    name: About

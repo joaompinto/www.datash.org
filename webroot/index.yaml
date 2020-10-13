@@ -1,0 +1,10 @@
+title: Home page
+intro:
+  title: Navbar example
+  text:
+    This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.
+
+install_text:
+  "To create a an application from this template you can use the following command:"
+install_command:
+  quickweb create my-web-app bootstrap-navbar-fixed-top

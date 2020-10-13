@@ -1,0 +1,11 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  font-size: 2em;
+}
+
+.command {
+  padding: 10px;
+  background-color: black;
+  color: greenyellow;
+}
