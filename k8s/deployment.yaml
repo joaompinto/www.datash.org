@@ -35,7 +35,7 @@ spec:
   ports:
     - name: http-port
       protocol: TCP
-      port: 8000
+      port: 8080
   selector:
     app: www-datash-org
   type: ClusterIP
@@ -51,4 +51,4 @@ spec:
         paths:
           - backend:
               serviceName: www-datash-org
-              servicePort: 8000
+              servicePort: 8080
