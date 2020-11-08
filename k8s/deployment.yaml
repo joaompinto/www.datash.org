@@ -26,8 +26,6 @@ spec:
               cpu: 50m
               memory: 100Mi
           imagePullPolicy: Always
-          restartPolicy: Always
-          terminationGracePeriodSeconds: 30
 ---
 apiVersion: v1
 kind: Service
@@ -48,8 +46,7 @@ metadata:
   name: www-datash-org
 spec:
   rules:
-    - hosts:
-        - www.datash.org
+    - host: www.datash.org
       http:
         paths:
           - backend:
